@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>DAX-Anlagespiel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1 id="titel">DAX-Anlagespiel</h1>
+  <p id="stand" class="stand" aria-live="polite">Lade Daten …</p>
+</header>
+<div id="banner" class="banner" hidden role="status"></div>
+<nav class="tabs" role="tablist" aria-label="Ansichten" id="tabs"></nav>
+<main id="main">
+  <noscript>Diese Seite benötigt JavaScript.</noscript>
+</main>
+<footer class="foot">
+  <span id="fuss"></span>
+  <label>Mein Portfolio: <select id="own" aria-label="Eigenes Portfolio hervorheben"><option value="">–</option></select></label>
+</footer>
+<script src="vendor/plotly-basic.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
